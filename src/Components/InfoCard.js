@@ -28,7 +28,12 @@ class InfoCard extends Component {
                                 application codes. Updating and modifying existing applications. Possess skills in deep analysis,
                                 teamwork, self-organising, communication and time management.
                             </div>
-
+                            <div className="links">
+                                <a className="a-link fa-2x" href="https://t.me/Bakkayarou"></a>
+                                <a className="a-link fa-2x" href="https://bakka.artstation.com/"></a>
+                                <a className="a-link fa-2x" href="#"></a>
+                                <a className="a-link fa-2x" href="https://github.com/Bakkayaroy"></a>
+                            </div>
                         </div>
                         <div className="col-md resume_info_right">
                             <img className="resume_info_photo" src={Photo}></img>

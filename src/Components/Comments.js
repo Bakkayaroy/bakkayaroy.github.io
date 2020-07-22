@@ -12,7 +12,7 @@ class Comments extends Component {
                         <img  className="avatar" src={Cat} alt = "test" width="80px"/>
                     </div>
                     <div className="comment-block">
-                        <p className="comment-text">Really proficient developer. Creates great ,
+                        <p className="comment-text">Really proficient developer. Creates great
                             microservices and totally nails reverse engeneering.
                             And I say that totally not because he's my son.<br/>
                             Love u. <br/>

@@ -61,11 +61,9 @@ class Experience extends Component {
                             </span>
                         </div>
                         <p>
-                            Finished the cryptocurrency exchange user notification system with the integration with popular messengers allowing communication with technical support directly from these messengers.
-
-                            Developed a system that monitors the market and commits purchases amazon ec2 spot instance when available. Zabbix support included.
-
-                            Developed a dashboard for Gitlab that managed tasks, pipelines and jobs.</p>
+                            Was involved in the development of a web service using gps navigation. Implemented
+                            UniversalRobot control interfaces based on the Unity engine.
+                            Gained extensive experience in DevOps and robotics.</p>
                         <ul className="content-skills">
                             <li>SQL</li>
                             <li>ASP.NET MVC</li>
@@ -97,9 +95,9 @@ class Experience extends Component {
                             </span>
                         </div>
                         <p>
-                            Developed a system that monitors the market and commits purchases amazon ec2 spot instance when available. Zabbix support included.
-
-                            Developed a dashboard for Gitlab that managed tasks, pipelines and jobs.</p>
+                            Mostly there were orders based on Unity develpment. Fixing bugs, ads inmplementation,
+                            optimizing games, wroting backend for games on Asp.net core. I took variety of orders
+                            from a basic 3d modeling to a full development cycle for a microservice</p>
                         <ul className="content-skills">
                             <li>Entity Framework</li>
                             <li>Postgres</li>
