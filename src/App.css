@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.resume_head {
+    background-image: -webkit-linear-gradient(0deg, #673ab7 0%, #88f3ff 100%);
+    height: 400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.resume_info {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.resume_info_left {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background: #2B343A;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.resume_info_title {
+    font-size: 55px;
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.resume_info_right {
+    display: block;
+}
+.resume_info_photo {
+    display: block;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+
+@media only screen and (max-width: 910px) {
+    .resume_info_right{
+    display:none;
+    }
+}
+.resume_info_job {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume_info_hello {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
+
+.resume_info_lower {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.telegram {
+    background: url(Img/telegram.jpg) center no-repeat;
+    display: block;
+    margin-left: 20px;
+    background-size: 50%;
+    height: 100px;
+}
+
+.github {
+    background: url(Img/github-logo.jpg) center no-repeat;
+    display: block;
+    margin-left: 20px;
+    background-size: 50%;
+    height: 100px;
+}
+
+.mail {
+    background: url(Img/mail.jpg) center no-repeat;
+    display: block;
+    margin-left: 20px;
+    background-size: 50%;
+    height: 100px;
+}
+
+.resume_experience {
+    display: block;
+    margin:  40px auto;
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
